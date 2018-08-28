@@ -7,14 +7,18 @@ body{
     overflow-x:hidden;
     font-family:'Roboto Slab','Helvetica Neue',Helvetica,Arial,sans-serif
 }
-p{
+p {
     line-height:1.75
 }
-a{
-    color:#fed136
+a {
+    /*color:#fed136*/
+    color: #d0581c;
+    opacity: 0.8;
 }
 a:hover{
-    color:#fec503
+    /*color:#fec503*/
+    color:#E46F35;
+    opacity: 1;
 }
 .text-primary{
     color:#fed136!important
@@ -633,4 +637,9 @@ ul.social-buttons li a:active,ul.social-buttons li a:focus,ul.social-buttons li 
     display: inline-block;
     background-color: #212529;
     padding: 0 5px;
+}
+.caption {
+    font-size: smaller;
+    font-style: italic;
+    text-align: center;
 }
